@@ -1,0 +1,1 @@
+document.querySelectorAll('.hotspot').forEach(link=>{link.addEventListener('click',()=>{link.animate([{transform:'scale(1)'},{transform:'scale(.985)'},{transform:'scale(1)'}],{duration:220,easing:'ease-out'})})});
